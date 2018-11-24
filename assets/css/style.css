@@ -1,0 +1,257 @@
+body {
+    
+    background-image: url(../images/40561a7121f15bf.jpg);
+    
+    /* background-image: url(../images/Fifa-World-Cup-2018-Wallpapers.jpg);
+    background-image: url(../images/gettyimages-883495912.jpg);
+    background-image: url(../images/main.jpg);
+    background-image: url(../images/Wallpaper-World-Cup-Russia-Desktop.jpg); */
+    background-image: url(../images/World-Cup-2018-Wallpaper-HD.jpg);
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgb(101,160,70);
+  height: 60px;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color:rgb(219, 76, 41);
+    padding-bottom: 5px;
+    position: relative;
+    top: 0;
+}
+
+.ttg {
+
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color:rgb(219, 76, 41);
+    padding-bottom: 20px;
+    position: relative;
+    top: 0;
+}
+
+label {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    color:rgb(219, 76, 41);
+    margin-bottom: 10px;
+    
+}
+.nav-link { margin-right: 23px;
+    padding: 0px, 0px, 0px, 0px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+    position: relative;
+    top: 0;
+}
+
+  h4 {
+    position: relative;
+    top: 7px;
+    margin-left: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+a {
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.btn {color: #030303;
+    background-color: transparent;
+    background-image: none;
+    border-color: #212121;
+}
+
+.highlight-videos {
+    display: block;
+    margin: auto;
+    background-color: whitesmoke;
+    opacity: 10;
+}
+
+iframe {
+    padding: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.timeCard {
+    width: 45%;
+    float: left;
+    margin: 5px;
+}
+
+.timeBox {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.memeGenerator {
+    margin: auto;
+    background-color: whitesmoke;
+    border: solid 6px rgb(101,160,70);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+#meme {
+    position: relative;
+    display: block;
+    width: 400px;
+}
+
+.top, .bottom {
+    position: absolute; 
+    left: 0;
+    right: 0; 
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.forms  {
+    margin: 50px auto;
+}
+
+.boxes {
+    margin: 10px auto;
+    border: gray solid 2px;
+    border-radius: 6px;
+}
+
+.buffer {
+    width: 100%;
+    height: 50px;
+}
+
+.memeImagesHere {
+    margin: 15px auto;
+    height: 200px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+
+.memeImagesHere img, 
+#memeCreations canvas {
+    display: inline-block;
+    height: 190px;
+    margin: 5px;
+}
+
+.largeFont {
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+#results{
+    display: inline;
+}
+
+
+.marginTop .container {
+    background-color: rgba(228, 228, 228, .4);
+    margin-top: 30px;
+    border: solid 4px;
+    border-color: rgb(252, 248, 200);
+    border-radius: 4px;
+}
+
+
+
+
+.groupTable {
+    background-color: lightgray;
+    border: solid 6px rgb(101,160,70);
+    padding: 30px;
+    border-radius: 6px;
+}
+
+h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+th {
+    font-weight: 550;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid gray;
+    width: 20%;
+}
+
+td {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.marginTop {
+    margin-top: 50px;
+}
+
+.team {
+    width: 50%;
+}
+
+.width5 {
+    width: 5%
+}
+
+canvas {
+    
+    width: 400px;
+    height: 500px;
+}
+
+.memeGenerator img {
+    width: 200px;
+    height: 250px;
+}
+
+.shareButton {
+    position: relative;
+    bottom: 0;
+}
+

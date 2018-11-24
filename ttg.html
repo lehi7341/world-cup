@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>World Cup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Roboto" rel="stylesheet">
+    <script src="//platform-api.sharethis.com/js/sharethis.js#property=5b1a00958e56ee0011c804ac&product=inline-share-buttons"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+    <script src="assets/javascript/html2canvas.js"></script>
+    <script src="assets/javascript/ttg.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">Fifa World Cup</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Highlights</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="matches.html">Matches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="standings.html">Standings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ttg.html">TTG</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    </nav>
+    </div>
+    </nav>
+    <div class="container">
+        <div class="buffer"></div>
+        <div class="memeGenerator">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="largeFont ttg text-center">Trash Talk Generator</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <br><br>
+                    <div id="meme">
+                        <canvas></canvas>
+                        <span class="top text-center"></span>
+                        <span class="bottom text-center"></span>
+                    </div>
+                    <br><br>
+                </div>
+                <div class="col-lg-6">
+                        <input type="file" id="file"/>
+                    <form class="forms">
+                        <div class="form-group">
+                            <label for="topInput">Top text</label>
+                            <input type="text" oninput="topText4Meme()" class="form-control" id="topInput" placeholder="Top Text">
+                        </div>
+                        <div class="form-group">
+                            <label for="bottomInput">Bottom Text</label>
+                            <input type="text" oninput="bottomText4Meme()" class="form-control" id="bottomInput" placeholder="Another input">
+                        </div>
+                    </form>
+                    <button id="generate">Generate</button>
+                    <div id="memeCreations">
+                        <br>
+                        </div>
+                    <div class="sharethis-inline-share-buttons shareButton"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br><br>
+
+</body>
+
+</html>
